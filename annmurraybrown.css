@@ -1,0 +1,135 @@
+
+header{
+  position: absolute;
+  top: 10;
+  left: 0;
+  margin: 25px;
+  padding: 8px;
+  background-color: aliceblue;
+  border-radius: 50%;
+
+}
+nav{
+    background-color: rgba(0, 0, 0, 0.808);
+    height: 100px;
+   
+
+}
+
+.logo{
+    float: left;
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    padding-top:2px;
+    border-radius: 50px;
+}
+
+nav li{
+    display: inline-block;
+    padding-right: 10px;
+    padding-top: 20px;
+    float:right;
+    
+}
+li a{
+   text-decoration-style: solid;
+   text-decoration-line: overline;
+   text-decoration-color: #06e906;
+   color: #06e906;
+  
+}
+li a:hover{
+    text-decoration-thickness:5px;
+
+}
+
+.hero{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+.hero img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+.hero-text{
+    position: absolute;
+    text-align: center;
+    top: 20%;
+    left: 35%;
+    color: white;
+    z-index: 2;
+
+}
+.hero-text a{
+    color: white;
+    text-decoration: underline solid rgb(255, 255, 255);
+
+}
+.kepehEM-footer{
+    background-color: black;
+    color:white;
+    text-align: center;
+    padding: 10px 0;
+}
+.footer-content{
+    max-width: 100%;
+    padding:0 20px;
+    margin: 0 auto;
+}
+/*this is a black background for thesection color*/
+/* Black background for the whole section */
+.testimonials-section {
+    background-color: black;
+    padding: 60px 20px;
+    color: white;
+
+    text-align: center;
+  }
+  
+  /* Title style */
+  .testimonials-title {
+    font-size: 36px;
+    margin-bottom: 40px;
+    letter-spacing: 3px;
+  }
+  
+  /* Testimonial cards layout */
+  .testimonials-container {
+    display: flex;
+    flex-wrap: wrap;
+   height: 70vh;
+    justify-content: center;
+    
+
+  }
+  
+  /* Base card style */
+  .testimonial {
+    padding: 25px;
+    width: 300px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    color: white;
+  }
+  
+  /* Different card background colors */
+  .testimonial.green1 {
+    background-color: #06e906;
+    color: rgb(255, 255, 255);
+    border-right:15px solid white;
+  }
+  
+  .testimonial.gray {
+    background-color: #333;
+  
+    
+  }
+  .testimonial.green2 {
+    background-color: #06e906;
+    color: rgb(255, 255, 255);
+    border-left:15px solid white;
+}
