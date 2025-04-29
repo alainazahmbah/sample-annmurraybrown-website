@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    margin-top: 30px;
+    font-family: sans-serif,Arial, Helvetica, sans-serif;
+
+}
+body{
+    background-color: rgb(255, 255, 255);
+    padding: 40px;
+}
+.container{
+    display: flex;
+    max-width: max-content;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+}
+.contact-infor, .contact-form{
+flex: 1;
+padding: 40px;
+}
+.contact-infor h1{
+    margin-bottom: 20px;
+}
+.contact-infor{
+    background-color: black;
+}
+.contact-infor p{
+    line-height: 1.6;
+}
+.contact-form h2{
+    margin-bottom: 20px;
+}
+.contact-form form{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.material-icons{
+    padding-left: 10px;
+    
+
+}
+   .fa
